@@ -1,17 +1,15 @@
-# minimal-reproduction-template
-
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+# [30323](https://github.com/renovatebot/renovate/discussions/30323)
 
 ## Current behavior
 
-Explain the current behavior here.
+Sbt project have vulnerable dependency org.apache.avro:avro v1.11.1
+
 
 ## Expected behavior
 
-Explain the expected behavior here.
+Renovate bot should raise an MR/PR for  pkg:maven/org.apache.avro/avro v1.11.3
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/30323
+
